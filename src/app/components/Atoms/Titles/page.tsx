@@ -1,13 +1,16 @@
 import React from 'react'
+interface Indexprops {
+    title: string;  
+}
 
-const HeroTitle = () => {
+const HeroTitle = ({title=''}:Indexprops) => {
   return (
-    <h1 className=' flex justify-center text-black w-full font-bold'>Calificar evento</h1>
+    <h1 className=' flex justify-center text-bank2 w-full font-bold'>{title}</h1>
   )
 }
-const MediumTitle = () => {
+const MediumTitle = ({title=''}:Indexprops) => {
   return (
-    <h2>MediumTitle</h2>
+    <h2 className='flex justify-center text-bank2 w-full font-bold'>{title}</h2>
   )
 }
 const SubTitle = () => {

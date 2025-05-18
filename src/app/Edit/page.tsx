@@ -18,8 +18,8 @@ const Page = () => {
               <p className=' text-black' >Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
             </div>
           </div>
-          <div>
-            <input type="text" placeholder='Escribe tu comentario' className='w-full h-20 bg-gray-300 text-black'/>
+          <div className='border-2 border-black rounde-x1 p-4'>
+            <input type="text" placeholder='Escribe tu comentario' className='w-full h-20 bg-gray-300 text-black rounded-full '/>
           </div>
 
           <div className=' flex flex-row gap-7'>
