@@ -1,7 +1,9 @@
+'use client';
 import React from 'react'
 import Buttons from '@/app/components/Atoms/Buttons/page'
 import Cards from '@/app/components/Organismos/Cards/page'
 import { HeroTitle } from '@/app/components/Atoms/Titles/page'
+import BoxStars from '@/app/components/Organismos/BoxStars/page'
 
 const Page = () => {
   return (
@@ -22,6 +24,10 @@ const Page = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
+          
+          <div className=' flex justify-center items-center'>
+            <BoxStars />
+          </div>
 
           <div className='mt-4'>
             <textarea
@@ -29,6 +35,7 @@ const Page = () => {
               className='w-full h-30  text-black rounded-md px-2 py-2 border-2 resize-none ' style={{ borderColor: '#043D74' }}
             />
           </div>
+
 
           <div className='flex flex-row gap-7 mt-4'>
             <Buttons title='Enviar' link='/Make' color='bg-orange-500' />

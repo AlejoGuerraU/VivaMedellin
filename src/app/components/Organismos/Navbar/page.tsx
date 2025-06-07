@@ -14,8 +14,8 @@ const Page = () => {
         </picture>
 
         <div className='flex items-center text-bank2 font-bold gap-2'>
-          @Usuario_1
-          <Icon icon={'qlementine-icons:user-24'} />
+          <span>@Usuario_1</span>         
+           <Icon icon={'qlementine-icons:user-24'} />
         </div>
       </nav>
 

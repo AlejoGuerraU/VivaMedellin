@@ -1,6 +1,5 @@
 import React from 'react'
-import { HeroTitle } from '../../Atoms/Titles/page'
-import { MediumTitle } from '../../Atoms/Titles/page'
+import { HeroTitle,MediumTitle  } from '../../Atoms/Titles/page'
 import Buttons from '@/app/components/Atoms/Buttons/page'
 import Desplegable from '@/app/components/Organismos/Desplegable/page'
 
